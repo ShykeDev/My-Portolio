@@ -82,7 +82,7 @@ const Navbar = () => {
       </div>
 
       {navbarOpen && (
-        <div className="menu w-full h-auto flex flex-col items-center justify-end md:hidden shadow-lg bg-[#03001417]">
+        <div className="menu w-full h-auto flex flex-col items-center justify-end md:hidden shadow-lg bg-[#2A0E61]/50">
           <a
             href="#about-me"
             onClick={handleMenuClick}
